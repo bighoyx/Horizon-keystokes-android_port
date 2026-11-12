@@ -1,0 +1,9 @@
+id = "keystrokes_custom"
+name = "Custom Keystrokes"
+version = "0.1.0"
+description = "Port of me.topchetoeu.keystrokes with smooth 0.2s fadeout and SFT key."
+authors = ["Ported"]
+api = "0.1"
+side = "client"
+capabilities = ["render", "input"]
+experimental = ["render", "input"]

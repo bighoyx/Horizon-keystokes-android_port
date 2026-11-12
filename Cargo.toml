@@ -1,0 +1,15 @@
+[package]
+name = "keystrokes_custom"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+horizon-mod-sdk = { git = "https://github.com/ludovic111/horizon" , rev = "cf62fe270b243780f9aa86c49b456d9dd9078b42" }
+wit-component = "0.254.2"
+
+[profile.release]
+opt-level = "s"
+lto = true
